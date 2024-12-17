@@ -1,0 +1,103 @@
+.boxLeft {
+    width: 73px;
+    min-width: 73px;
+    max-width: 73px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+
+.ant-menu-item-icon {
+    transition: color .3s
+}
+
+.Menu li span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ant-badge {
+    font-feature-settings: "tnum";
+    box-sizing: border-box;
+    color: #000000d9;
+    display: inline-block;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.iconMenuLeft {
+    width: 28px;
+    height: 28px;
+    color: white;
+}
+
+
+.ant-menu-item-selected {
+    background-color: #0891b2 !important;
+    border-radius: 10px;
+}
+
+.hVLhPR {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.iconCLeftenter {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ant-menu-item:hover {
+    background-color: #2980b9;
+    /* Màu nền khi hover */
+}
+
+.ant-menu-submenu-title {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /* Màu chữ cho tiêu đề submenu */
+}
+
+.ant-menu-submenu {
+    border: none;
+    /* Bỏ viền cho submenu */
+}
+
+.sidebar {
+    position: sticky;
+    width: 73px;
+    height: 99vh;
+    background-color: #001529;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+}
+
+.ant-menu-item {
+    height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.2s ease;
+}
+
+.ant-menu-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* Đổ bóng khi hover */
+}

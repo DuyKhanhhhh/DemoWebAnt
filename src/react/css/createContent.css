@@ -1,0 +1,22 @@
+.createContent {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.avatarCreateContent {
+    width: 48px;
+    height: 48px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.text-crateContent {
+    background: #fc543d;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.widthCreateContent {
+    background-color: #fc543d;
+    width: 100%;
+}

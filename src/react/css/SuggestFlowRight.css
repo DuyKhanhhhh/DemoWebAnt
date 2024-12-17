@@ -1,0 +1,18 @@
+.boxSuggestFlow {
+    background-color: white;
+    border-radius: 5px;
+    position: sticky;
+    top: 530px;
+}
+
+.avatarRight {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+
+.scrollContent {
+    height: 300px;
+    overflow: auto;
+    line-height: 20px;
+}
